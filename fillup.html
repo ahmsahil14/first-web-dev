@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .fit{
+        label{
             display: block;
             margin-bottom: 12px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        
+        textarea{
+            text-align: center;
+            width: 15%;
+            height: 25%;
+            margin-top: 12px;
         }
     </style>
 
@@ -16,6 +31,7 @@
 
 <body>
     <header>
+        <h1>Metropalitan University</h1>
        
 
     </header>
@@ -53,21 +69,29 @@
             <fieldset>
                 <legend>Which semester</legend>
                 <label for="1st semester">
-                    <input type="checkbox" name="semester" id="1st semester">
+                    <input type="checkbox" name="semester" id="1st semester">1st semester
                 </label><label for="2nd semester">
-                    <input type="checkbox" name="semester" id="2nd semester">
+                    <input type="checkbox" name="semester" id="2nd semester">2nd semester
                 </label><label for="3rd semester">
-                    <input type="checkbox" name="semester" id="3rd semester">
+                    <input type="checkbox" name="semester" id="3rd semester">3rd semester
                 </label><label for="4th semester">
-                    <input type="checkbox" name="semester" id="4th semester">
+                    <input type="checkbox" name="semester" id="4th semester">4th semester
                 </label><label for="5th semester">
-                    <input type="checkbox" name="semester" id="5th semester">
+                    <input type="checkbox" name="semester" id="5th semester">5th semester
                 </label><label for="6th semester">
-                    <input type="checkbox" name="semester" id="6th semester">
+                    <input type="checkbox" name="semester" id="6th semester">6th semester
                 </label><label for="7th semester">
-                    <input type="checkbox" name="semester" id="7th semester">
+                    <input type="checkbox" name="semester" id="7th semester">7th semester
                 </label>
             </fieldset>
+            <label for="Special Case"><textarea name="Note" id="">
+                For special case
+            </textarea>
+        </label>
+            <label for="Submit">
+                <input type="submit" value="Submit">
+                <input type="reset" value="reset">
+            </label>
 
 
 
