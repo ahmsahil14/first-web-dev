@@ -1,0 +1,20 @@
+nav > ul{
+    display: flex;
+    text-align: center;
+}
+nav li{
+    color: black;
+    list-style: none;
+    list-style-type: none;
+    
+    margin-right: 15px;
+    padding: 10px;
+    
+}
+
+nav li:hover{
+    background-color: bisque;
+}
+header{
+    text-align: center;
+}
