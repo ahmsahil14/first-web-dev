@@ -1,139 +1,151 @@
 #banner {
-    background-image: url(/assets/Hero-bg.png);
-    background-position: center;
-    background-size: cover;
-    height: 760px;
-    align-items: center;
-    /* display:; */
-    width: 100%;
-    opacity: 0.9;
-    margin-top: 50px;
+   background-image: url(/assets/Hero-bg.png);
+   background-position: center;
+   background-size: cover;
+   height: 760px;
+   align-items: center;
+   /* display:; */
+   width: 100%;
+   opacity: 0.9;
+   margin-top: 50px;
 
 
 }
- #banner .ban-container{
-    text-align: center;
-    
- }
 
- #banner .ban-container .icon img{
-    margin-top: 20px;
-    padding: 20px;
- }
- #banner .ban-container .titles{
-    width: auto;
-    height: 180px;
-    text-align: center;
-    align-items: center;
-    margin: 20px 180px;
+#banner .ban-container {
+   text-align: center;
 
- }
- #banner .ban-container .titles h1{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 45px;
-font-weight: 800;
-line-height: 40px;
-letter-spacing: 0%;
-text-align: center;
-justify-content: center;
-margin: 20px 180px;
- }
- #banner .ban-container .titles p{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 22px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-margin: 20px 300px;
- }
- #banner .ban-container .btn button{
-    border-radius: 8px;
-    padding: 2px 11px 2px 11px;
-    background: rgb(13, 19, 33);
-    width: 180px;
-    height: 50px;
-    align-items: center;
-    margin: 80px 620px;
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 10px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 20 auto;
- }
- .ban-container .btn2 button{
-    box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-opacity: 0.8;
-width: 228px;
-height: 58px;
-justify-content: center;
-align-items: center;
-padding: 12px 18px 12px 18px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 12px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 0px;
+}
 
+#banner .ban-container .icon img {
+   margin-top: 20px;
+   padding: 20px;
+}
 
- }
- .ban-container .btn2{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 20px;
- }
- .c2:hover{
-    display: block;
-   
-    background-color: rgb(252, 231, 205);
- }
-  .btn button .c1:hover{
-    background-color: rgb(249, 251, 251);
-   
- }
- .btn a{
-    text-decoration: none;
-    color: aliceblue;
- }
- .btn2 a{
-    text-decoration: none;
-    color: black;
- }
+#banner .ban-container .titles {
+   width: auto;
+   height: 180px;
+   text-align: center;
+   align-items: center;
+   margin: 20px 180px;
+
+}
+
+#banner .ban-container .titles h1 {
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 45px;
+   font-weight: 800;
+   line-height: 40px;
+   letter-spacing: 0%;
+   text-align: center;
+   justify-content: center;
+   margin: 20px 180px;
+}
+
+#banner .ban-container .titles p {
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin: 20px 300px;
+}
+
+#banner .ban-container .btn button {
+   border-radius: 8px;
+   padding: 2px 11px 2px 11px;
+   background: rgb(13, 19, 33);
+   width: 180px;
+   height: 50px;
+   align-items: center;
+   margin: 80px 620px;
+   color: rgb(255, 255, 255);
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 10px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-top: 20 auto;
+}
+
+.ban-container .btn2 button {
+   box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+   border-radius: 8px;
+   opacity: 0.8;
+   width: 228px;
+   height: 58px;
+   justify-content: center;
+   align-items: center;
+   padding: 12px 18px 12px 18px;
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 12px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-top: 0px;
 
 
- #whyweb{
-    width: 700px;
-    height: auto;
-    /* margin: 40px 75px; */
+}
 
- 
-    
- }
- .choice-container{
+.ban-container .btn2 {
+   display: flex;
+   flex-direction: row-reverse;
+   margin-top: 20px;
+}
+
+.c2:hover {
+   display: block;
+
+   background-color: rgb(252, 231, 205);
+}
+
+.btn button .c1:hover {
+   background-color: rgb(249, 251, 251);
+
+}
+
+.btn a {
+   text-decoration: none;
+   color: aliceblue;
+}
+
+.btn2 a {
+   text-decoration: none;
+   color: black;
+}
+
+
+#whyweb {
+   width: 700px;
+   height: auto;
+   /* margin: 40px 75px; */
+
+
+
+}
+
+.choice-container {
    margin: 50px;
    /* border: 2px solid black; */
    text-align: center;
    width: 1300px;
- }
+}
 
- /* #whyweb .choice-container .onepart{
+/* #whyweb .choice-container .onepart{
    width: 800px;
    height: 160px;
    text-align: center;
    margin: 0 auto;} */
 
- 
- /* .choice-container .onepart h1{
+
+/* .choice-container .onepart h1{
    color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 32px;
@@ -144,9 +156,9 @@ text-align: center;
 margin: 0 auto;
 pad
  } */
-  
 
- .onepart {
+
+.onepart {
    width: auto;
    height: 140px;
    margin: 0px auto;
@@ -154,8 +166,8 @@ pad
    /* border: 2px solid black; */
    text-align: center;
 }
- 
-.onepart h1{
+
+.onepart h1 {
    color: rgb(13, 19, 33);
    font-family: Azeret Mono;
    font-size: 36px;
@@ -164,24 +176,26 @@ pad
    margin-top: 0;
    text-align: center;
 }
-.onepart p{
+
+.onepart p {
    color: rgb(13, 19, 33);
    font-family: Azeret Mono;
    font-size: 20px;
    font-weight: 400;
    text-align: center;
    opacity: 0.7;
-  
+
 
 }
-.onee{
+
+.onee {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 
-.twopart{
+.twopart {
    /* border: 2px solid black; */
    display: flex;
    flex-direction: row;
@@ -189,36 +203,39 @@ pad
    align-items: left;
    text-align: left;
    margin: 0px 0px;
-   width: auto ;
+   width: auto;
    height: 220px;
 }
-.twopart h1{
+
+.twopart h1 {
    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 30px;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
+   font-family: Azeret Mono;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
 }
-.pf p{
+
+.pf p {
    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-width: 400px;
-/* border: 2px solid black; */
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   width: 400px;
+   /* border: 2px solid black; */
 }
-.twopart .imgo{
+
+.twopart .imgo {
    width: 250px;
    height: 120px;
    margin-left: 600px;
 }
 
-.threepart{
+.threepart {
    /* border: 2px solid black; */
    display: flex;
    flex-direction: row;
@@ -226,37 +243,40 @@ width: 400px;
    align-items: left;
    text-align: left;
    margin: 0px 0px;
-   width: auto ;
+   width: auto;
    height: 220px;
 }
-.pfo h1{
+
+.pfo h1 {
    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 30px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
+   font-family: Azeret Mono;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0%;
+   text-align: left;
 }
-.pfo p{
+
+.pfo p {
    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-width: 400px;
-/* border: 2px solid black; */
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   width: 400px;
+   /* border: 2px solid black; */
 }
-.threepart .imgoo{
+
+.threepart .imgoo {
    width: 250px;
    height: 120px;
    margin-left: 25px;
    margin-right: 200px;
 }
 
-.fourpart{
+.fourpart {
    /* border: 2px solid black; */
    display: flex;
    flex-direction: row;
@@ -264,80 +284,87 @@ width: 400px;
    align-items: left;
    text-align: left;
    margin: 0px 0px;
-   width: auto ;
+   width: auto;
    height: 220px;
 }
-.pfoo h1{
+
+.pfoo h1 {
    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 30px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
+   font-family: Azeret Mono;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0%;
+   text-align: left;
 }
-.pfoo p{
+
+.pfoo p {
    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-width: 400px;
-/* border: 2px solid black; */
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   width: 400px;
+   /* border: 2px solid black; */
 }
-.fourpart .imgooo{
+
+.fourpart .imgooo {
    width: 250px;
    height: 120px;
    margin-left: 600px;
 
 }
+
 .twopart .btn3 {
    text-align: center;
 
 
 }
-.lbtn button{
+
+.lbtn button {
    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-padding: 8px 16px 8px 16px;
-display: flex;
-flex-direction: column-reverse;
-text-decoration: none;
-margin-bottom: 20px;
-margin-top: 2px;
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: 0%;
+   text-align: center;
+   box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+   opacity: 0.7;
+   padding: 8px 16px 8px 16px;
+   display: flex;
+   flex-direction: column-reverse;
+   text-decoration: none;
+   margin-bottom: 20px;
+   margin-top: 2px;
 }
-.mbtn button{
+
+.mbtn button {
    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
-box-sizing: border-box;
-border: 2px solid rgb(13, 19, 33);
-opacity: 0.7;
-padding: 8px 16px 8px 16px;
-text-decoration: none;
-margin-bottom: 20PX;
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: 0%;
+   text-align: center;
+   box-sizing: border-box;
+   border: 2px solid rgb(13, 19, 33);
+   opacity: 0.7;
+   padding: 8px 16px 8px 16px;
+   text-decoration: none;
+   margin-bottom: 20PX;
 
 }
-.choice-container button a{
+
+.choice-container button a {
    text-decoration: none;
    color: black;
 }
 
-#inspiration .ins-container{
+#inspiration .ins-container {
    width: 1150px;
    height: 800px;
    margin: 40px auto;
@@ -346,49 +373,51 @@ margin-bottom: 20PX;
 
 }
 
-.ins-container .txt{
+.ins-container .txt {
    width: auto;
    height: 130px;
    text-align: center;
 
 
 }
-.txt h1{
+
+.txt h1 {
    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 40px;
-font-weight: 800;
-line-height: 35px;
-letter-spacing: 0%;
-text-align: center;
-margin: 20px 0px;
+   font-family: Azeret Mono;
+   font-size: 40px;
+   font-weight: 800;
+   line-height: 35px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin: 20px 0px;
 }
 
-.txt p{
+.txt p {
    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 60px;
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 60px;
 }
-.ins-container .visual iframe
-{
+
+.ins-container .visual iframe {
    width: 1100px;
    height: 600px;
 
 
 }
-#target .tar-container{
+
+#target .tar-container {
    /* width: 1106px; */
    height: 550px;
    text-align: center;
    align-items: center;
 }
 
-.tar-container .txt1{
+.tar-container .txt1 {
    /* width:1000px; */
    /* height: 120px; */
    text-align: center;
@@ -396,29 +425,31 @@ margin-bottom: 60px;
    /* margin-left: 400px; */
    margin-bottom: 20px;
 }
-.txt1 h1{
+
+.txt1 h1 {
    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 40px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
-}
-.txt1 p{
-   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 40px;
-max-width: 700px;
-margin: 0 auto;
+   font-family: Azeret Mono;
+   font-size: 40px;
+   font-weight: 800;
+   line-height: 37px;
+   letter-spacing: 0%;
+   text-align: center;
 }
 
-.cart-container{
+.txt1 p {
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 40px;
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+.cart-container {
    /* width: 1100px; */
    /* height: 400px; */
    display: flex;
@@ -426,97 +457,92 @@ margin: 0 auto;
    align-items: center;
    /* border: 2px solid black; */
    gap: 20px;
- 
-  
+
+
 
 }
-.cart-container .cart1{
+
+.cart-container .cart1 {
    width: 300px;
    height: 250px;
    border-radius: 16px;
-background: rgba(239, 220, 16, 0.05);
-text-align: left;
-padding: 40px;
+   background: rgba(239, 220, 16, 0.05);
+   text-align: left;
+   padding: 40px;
 }
-.cart-container .cart2{
+
+.cart-container .cart2 {
    width: 300px;
    height: 250px;
    border-radius: 16px;
-background: rgba(159, 38, 7, 0.05);
-text-align: left;
-padding: 40px;
+   background: rgba(159, 38, 7, 0.05);
+   text-align: left;
+   padding: 40px;
 }
-.cart-container .cart3{
+
+.cart-container .cart3 {
    width: 300px;
    height: 250px;
    border-radius: 16px;
-background: rgba(49, 16, 216, 0.05);
-text-align: left;
-padding: 40px;
+   background: rgba(49, 16, 216, 0.05);
+   text-align: left;
+   padding: 40px;
 }
 
 
-#lastpart{
+#lastpart {
    width: auto;
    height: 300px;
-   background-image: url(.../assets/handshake.jpg);
+   background-image: url(./assets/handshake.jpg);
    border-radius: 16px;
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
-background-size: cover;
-background-position: center;
+   background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+   background-size: cover;
+   background-position: center;
 }
-#lastpart .last{
+
+#lastpart .last {
    width: auto;
    text-align: center;
    margin-top: 32px 0px;
-   
-  
+
+
 }
-.last h1{
+
+.last h1 {
    color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: center;
+   font-family: Azeret Mono;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0%;
+   text-align: center;
 }
-.last p{
+
+.last p {
    color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: center;
 }
-.innn input{
+
+.innn input {
    box-sizing: border-box;
-/* border: 2px solid rgba(13, 19, 33, 0.15); */
-border-radius: 8px;
+   /* border: 2px solid rgba(13, 19, 33, 0.15); */
+   border-radius: 8px;
 
-background: rgb(255, 255, 255);
-height: 25px;
-width: 200px;
-margin: 0 auto;
+   background: rgb(255, 255, 255);
+   height: 25px;
+   width: 200px;
+   margin: 0 auto;
 
 }
-.inn input{
+
+.inn input {
    border-radius: 8px;
    box-sizing: border-box;
-margin-top: 20px;
-background: rgb(255, 255, 255);
+   margin-top: 20px;
+   background: rgb(255, 255, 255);
 }
-
-
-
-
-
-
-
- 
-
-
-
-
- 
